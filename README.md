@@ -18,6 +18,7 @@ This specifies the command to run when the container starts. It runs the Java pr
 In short, this Dockerfile creates a container that runs a Java program (Docker.java) using Amazon Corretto. It copies the program into the container, compiles it, and then executes it when the container starts.
 
 commands :
+
 -->docker build -t example/first:v2 .
 
 docker build: This command tells Docker to build a new image based on the instructions in the Dockerfile.
